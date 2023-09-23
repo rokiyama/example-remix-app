@@ -3,6 +3,7 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "build": "remix build",
     "dev": "remix dev",
     "start": "remix-serve build",
